@@ -1,0 +1,9 @@
+[Unit]
+Description=System Utilities Monitor on Startup
+
+[Service]
+Type=idle
+ExecStart=/home/pi/pimon.sh
+
+[Install]
+WantedBy=multi-user.target
