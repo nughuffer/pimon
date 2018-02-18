@@ -25,6 +25,8 @@ sudo echo "# Optional, for portrait video:" >> /boot/config.txt
 sudo echo "#display_rotate=3" >> /boot/config.txt
 
 sudo cp pimon.service /etc/systemd/system/
+cp pimon.sh /home/pi
+sudo chmod +x /home/pi/pimon.sh
 
 echo 'Add "/boot/nanoscreen &" before "exit 0" in /etc/rc.local'
 echo 'Then enable pimon.service in systemd then reboot to activate'
