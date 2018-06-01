@@ -1,2 +1,2 @@
 # pimon
-PiMonitor with external oled display
+PiMonitor with external Adafruit 0.96" spi oled display (color)
